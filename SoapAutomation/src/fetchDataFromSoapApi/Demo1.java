@@ -19,6 +19,8 @@ public class Demo1
 		
 		List<TCountryCodeAndName> a3 = a2.getTCountryCodeAndName();
 		
+		System.out.println("hello");
+		
 		for(TCountryCodeAndName a4:a3)
 		{
 			System.out.println(a4.getSISOCode()+"-----"+a4.getSName());
